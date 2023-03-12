@@ -11,7 +11,7 @@
 
 # URL (plex)
 
-- [plex888.xops.ipv9.me](plex888.xops.ipv9.me)
+- https://plex888.xops.ipv9.me
 
 
 ### กำหนดค่าไฟล์ compose.yaml เพื่อนำไป deploy stack ใน portainer
