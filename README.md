@@ -1,6 +1,10 @@
 # REF
 - [https://github.com/docker/awesome-compose/blob/master/plex/compose.yaml](https://github.com/docker/awesome-compose/blob/master/plex/compose.yaml)
 
+# Wakatime 
+
+- [https://wakatime.com/@spcn21/projects/pszcfeeact](https://wakatime.com/@spcn21/projects/pszcfeeact)
+
 ขั้นตอนการติดตั้งอยู่ใน swarm01 ก่อนถึงการสร้าง images เข้า dockerhub
 
 - [https://github.com/SiwakornEDZ/swarm01/edit/master/README.md](https://github.com/SiwakornEDZ/swarm01/edit/master/README.md)
