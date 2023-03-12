@@ -7,7 +7,7 @@
 
 ขั้นตอนการติดตั้งอยู่ใน swarm01 ก่อนถึงการสร้าง images เข้า dockerhub
 
-- [https://github.com/SiwakornEDZ/swarm01/edit/master/README.md](https://github.com/SiwakornEDZ/swarm01/edit/master/README.md)
+- [https://github.com/SiwakornEDZ/swarm01](https://github.com/SiwakornEDZ/swarm01)
 
 # URL (plex)
 
