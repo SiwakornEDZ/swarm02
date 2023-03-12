@@ -46,9 +46,13 @@ networks:
     external: true
 ```
     
-### อธิบาย Docker Compose file
+## อธิบาย Docker Compose file
 
-- [Docker Compose]
+- [https://github.com/SiwakornEDZ/swarm02/tree/master/docker-compose.yaml](https://github.com/SiwakornEDZ/swarm02/tree/master/docker-compose.yaml)
+
+## อธิบาย Compose ที่ใช่ในการ deploy บนคลัสเตอร์ xops
+
+-
 
 # Ref example code 
 
