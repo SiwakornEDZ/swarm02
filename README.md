@@ -52,7 +52,7 @@ networks:
 
 ## อธิบาย Compose ที่ใช่ในการ deploy บนคลัสเตอร์ xops
 
--
+- [https://github.com/SiwakornEDZ/swarm02/tree/master/compose.yaml](https://github.com/SiwakornEDZ/swarm02/tree/master/compose.yaml)
 
 # Ref example code 
 
