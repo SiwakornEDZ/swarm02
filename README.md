@@ -1,4 +1,4 @@
-# ref 
+# REF
 [https://github.com/docker/awesome-compose/blob/master/plex/compose.yaml]
 
 ขั้นตอนการติดตั้งอยู่ใน swarm01 ก่อนถึงการสร้าง images เข้า dockerhub
