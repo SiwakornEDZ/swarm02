@@ -45,7 +45,6 @@ docker push siwakorn2345/swarm02-web:01
 ```
 
 ### กำหนดค่าไฟล์ compose.yaml เพื่อนำไป deploy stack ใน portainer
-## ยังไม่สมบูรณ์
 
 ```
 version: '3.3'
@@ -77,7 +76,6 @@ networks:
     external: true
 ```
     
-## ยังไม่สมบูรณ์
 
 # Ref example code 
 
