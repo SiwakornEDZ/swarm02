@@ -5,6 +5,10 @@
 
 - [https://github.com/SiwakornEDZ/swarm01/edit/master/README.md](https://github.com/SiwakornEDZ/swarm01/edit/master/README.md)
 
+# URL (plex)
+
+- [plex888.xops.ipv9.me](plex888.xops.ipv9.me)
+
 ## สร้าง image สำหรับการเตรียม push ขึ้น dockerhub
 
 ### ขั้นตอนแรก
@@ -40,45 +44,31 @@ docker push siwakorn2345/swarm02-web:01
 ## ยังไม่สมบูรณ์
 
 ```
- version: '3.7'
- services:
-  web:
-    image: siwakorn2345/swarm01-backend:02
-    command: --providers.docker --entrypoints.web.address=:90 --providers.docker.exposedbydefault=false
+version: '3.3'
+services:
+  test-volume:
+    image: siwakorn2345/swarm01-backend:01
     networks:
-      - webproxy
-     environment:
-      - PORT=80
-    volumes:
-      - appwhale189:/usr/src/app/appwhale889
-    ports:
-      - "91:90"
-    depends_on:
-      - deploy
+     - webproxy
+    logging:
+      driver: json-file
     deploy:
       replicas: 1
       labels:
         - traefik.docker.network=webproxy
         - traefik.enable=true
-        - traefik.http.routers.${appname}-https.entrypoints=websecure
-        - traefik.http.routers.${appname}-https.rule=Host("{appname}.xops.ipv9.me")
-        - traefik.http.routers.${appname}-https.tls.certresolver=default
-        - traefik.http.services.${appname}.loadbalancer.server.port=80
-        - "traefik.http.routers.go.rule=Path(`/`)"
-        - "traefik.http.services.go.loadbalancer.server.port=80"
-      restart_policy:
-        condition: any
-      update_config:
-        delay: 5s
-        parallelism: 1
-        order: start-first
-volumes:
-  appwhale189:
-
+        - traefik.http.routers.whale0011-https.entrypoints=websecure
+        - traefik.http.routers.whale0011-https.rule=Host("whale0011.xops.ipv9.me")
+        - traefik.http.routers.whale0011-https.tls.certresolver=default
+        - traefik.http.services.whale0011.loadbalancer.server.port=80
+      resources:
+        reservations:
+          cpus: '0.1'
+          memory: 6M
+        limits:
+          cpus: '0.4'
+          memory: 50M
 networks:
-  default:
-    driver: overlay
-    attachable: true   
   webproxy:
     external: true
 ```
